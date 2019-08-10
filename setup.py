@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='random_names',
-    version='0.0.1',
+    version='0.0.2',
     description='A sample PyPI Tokens demo',
     long_description=long_description,
     long_description_content_type='text/markdown',
