@@ -21,7 +21,7 @@ install:
   - pipenv install --dev --skip-lock
 
 script:
-  pipenv run pytest --cov=main --cov-report=xml -v
+  pipenv run pytest test.py
 
 after_success:
   pipenv run codecov
